@@ -53,6 +53,6 @@ This guide focuses on enabling the 'Start Design' buttons in the product section
 
 ## Notes
 
-- "product.liquid" and "cart.liquid" sections are standard in Shopify. If you're using a custom theme with different section names, follow the same steps in the corresponding sections.
+- "product.liquid" and "cart.liquid" sections are standard in Shopify. If you're using a custom theme with different section names, follow the same steps in the corresponding files.
 - The 'Start Design' button is given the className "btn" as per Shopify's standard. If your page or section uses a different className for buttons, replace "btn" with the className used for your website's button styles.
 - When creating personalized products, several properties are added to the products. If your webpage displays all product details or properties, these new properties of the personalized product may also appear. Consider hiding these properties or modifying the code to display only the desired product properties.
