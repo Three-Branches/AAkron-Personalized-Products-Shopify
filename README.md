@@ -36,7 +36,10 @@ This guide focuses on enabling the 'Start Design' buttons in the product section
 
       ![Texto alternativo](/screenshots/cart_image_js_liquid.png)
 
-3.  Finally, locate your "product.liquid" and "cart.liquid" sections:
+3.  Finally, locate your "product.liquid" and "cart.liquid" files (This names may vary according to your own development team):
+
+    *product.liquid should be the section where you show the detail of your product.
+    *cart.liquid should be the section of your shopping cart.
 
     - In "product.liquid," find the section where you want to add the 'Start Design' button. Copy the content of your "product.liquid" file and paste it into the desired section on your page, referencing the newly added assets, "app.css" and "app.js."
 
@@ -53,6 +56,5 @@ This guide focuses on enabling the 'Start Design' buttons in the product section
 
 ## Notes
 
-- "product.liquid" and "cart.liquid" sections are standard in Shopify. If you're using a custom theme with different section names, follow the same steps in the corresponding files.
-- The 'Start Design' button is given the className "btn" as per Shopify's standard. If your page or section uses a different className for buttons, replace "btn" with the className used for your website's button styles.
+- The 'Start Design' button is given the className "btn" as per default. If your page or section uses a different className for buttons, replace "btn" with the className used for your website's button styles.
 - When creating personalized products, several properties are added to the products. If your webpage displays all product details or properties, these new properties of the personalized product may also appear. Consider hiding these properties or modifying the code to display only the desired product properties.
