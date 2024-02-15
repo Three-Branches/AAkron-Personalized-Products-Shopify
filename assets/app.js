@@ -133,7 +133,7 @@
 
         jQuery.ajax({
           type: 'post',
-          url: 'https://flowzdesigntool.flowzcluster.tk/wp-admin/admin-ajax.php',
+          url: 'https://flowzdesigntool.flowzdigital.com/wp-admin/admin-ajax.php',
           data: {
             action: 'aakron_design_tool_validate_token',
             userAccessToken: userAccessToken,
